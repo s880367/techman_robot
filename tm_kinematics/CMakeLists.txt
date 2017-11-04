@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(Boost REQUIRED COMPONENTS system)
+set(CMAKE_CXX_FLAGS "-std=c++11")
 
 catkin_package(
   INCLUDE_DIRS include
